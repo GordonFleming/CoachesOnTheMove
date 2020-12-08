@@ -1,29 +1,21 @@
-<script>
-
-</script>
-
-<style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-</style>
+<Navbar />
 
 <main>
-    <h1>test</h1>
+    <Home />
 </main>
+
+<Router {routes} />
+
+<Contact />
+
+<Footer />
+
+<script>
+    import Router from 'svelte-spa-router'
+    import routes from './routes'
+    //Components
+    import Navbar from './routes/Nav.svelte'
+    import Footer from './routes/Footer.svelte'
+    import Contact from './routes/Contact.svelte'
+    import Home from './routes/Home.svelte'
+</script>
