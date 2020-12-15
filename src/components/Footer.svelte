@@ -1,6 +1,6 @@
 <style>
     .segOne{
-    padding-top: 5vh;
+        padding-top: 5vh;
     }
     .segTwo{
         padding-top: 0;
@@ -10,6 +10,7 @@
     }
     footer{
         z-index: -2;
+        margin-top: auto;
     }
     .footer_look {
         background: #221F23;
