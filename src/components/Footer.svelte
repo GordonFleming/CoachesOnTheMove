@@ -1,4 +1,4 @@
- <style>
+<style>
     .segOne{
     padding-top: 5vh;
     }
