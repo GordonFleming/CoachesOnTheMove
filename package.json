@@ -1,10 +1,10 @@
 {
-  "name": "coachesonthemove",
+  "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "start": "sirv public -s"
+    "build": "npx rollup -c",
+    "dev": "npx rollup -c -w",
+    "start": "npx serve -n -l 5000 public"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^16.0.0",
@@ -17,7 +17,6 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0",
-    "svelte-routing": "^1.4.2"
+    "svelte-spa-router": "^3.0.4"
   }
 }

@@ -9,7 +9,6 @@
         padding-top: 5vh;
     }
     footer{
-        z-index: -2;
         margin-top: auto;
     }
     .footer_look {
