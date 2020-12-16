@@ -1,7 +1,7 @@
 <script>
     import { Router, Route, Link } from "svelte-routing";
     import Home from "./pages/Home.svelte";
-    // import About from "./pages/About.svelte";
+    import About from "./pages/About.svelte";
     import Footer from "./components/Footer.svelte";
     export let url = ""; //This property is necessary declare to avoid ignore the Router
 </script>
